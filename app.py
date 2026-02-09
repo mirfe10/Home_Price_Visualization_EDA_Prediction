@@ -6,6 +6,14 @@ import json
 
 st.title("🏠 İstanbul Konut Fiyat Tahmini")
 
+st.markdown(
+    """
+    ⚠️ **Bilgilendirme:** Model geçmiş dönem ilan verileri ile eğitilmiştir.  
+    Enflasyon ve piyasa koşullarındaki değişimler nedeniyle tahminler güncel değerlerden sapma gösterebilir.
+    """
+)
+
+
 # -----------------------------
 # Model + Feature Columns Load
 # -----------------------------
@@ -169,3 +177,4 @@ if st.button("Tahmin Et"):
     st.write("R² Skoru:", 0.72)
     st.write("Ortalama Hata (MAE): 149,720 TL")
     st.write("Ortalama Yüzde Hata: %17")
+
