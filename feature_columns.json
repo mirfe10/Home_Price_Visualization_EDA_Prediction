@@ -1,0 +1,21 @@
+[
+  "district",
+  "Category",
+  "GrossSquareMeters",
+  "BuildingAge",
+  "NumberFloorsofBuilding",
+  "EligibilityForInvestment",
+  "NumberOfBathrooms",
+  "Type",
+  "NetSquareMeters",
+  "NumberOfRooms",
+  "FloorLocation",
+  "HeatingType",
+  "CreditEligibility",
+  "InsideTheSite",
+  "Swap",
+  "PriceStatus",
+  "BuildingAge_ordinal",
+  "FloorNumber",
+  "neighborhood"
+]
