@@ -62,4 +62,6 @@ Model, fiyat varyansının yaklaşık %72’sini açıklayabilmektedir.
 ---
 ## 📎 Kaggle Notebook
 
-[Kaggle Notebook Linki]([https://www.kaggle.com/....](https://www.kaggle.com/code/mirfe10/home-price-visualization-eda-prediction))
+Bu projenin interaktif sürümünü Kaggle’da görüntüleyebilirsin:
+
+🔗 **[Home Price Visualization & Prediction – Kaggle Notebook](https://www/kaggle.com/code/mirfe10/home-price-visualization-eda-prediction)**
