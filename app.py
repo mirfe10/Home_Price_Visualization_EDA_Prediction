@@ -162,7 +162,7 @@ if st.button("Tahmin Et"):
         "NetSquareMeters": net_m2,
         "NumberOfRooms": rooms,
         "NumberOfBathrooms": bathrooms,
-        "FloorNumber": floor_num,
+        "FloorNumber": int(floor_num),
         "BuildingAge_ordinal": building_age_ord,
         "InsideTheSite": inside_site,
 
@@ -177,4 +177,5 @@ if st.button("Tahmin Et"):
     st.write("R² Skoru:", 0.72)
     st.write("Ortalama Hata (MAE): 149,720 TL")
     st.write("Ortalama Yüzde Hata: %17")
+
 
