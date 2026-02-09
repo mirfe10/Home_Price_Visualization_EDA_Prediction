@@ -60,3 +60,6 @@ Model, fiyat varyansının yaklaşık %72’sini açıklayabilmektedir.
 - Matplotlib
 
 ---
+## 📎 Kaggle Notebook
+
+[Kaggle Notebook Linki]([https://www.kaggle.com/....](https://www.kaggle.com/code/mirfe10/home-price-visualization-eda-prediction))
