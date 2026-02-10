@@ -6,12 +6,7 @@ import json
 
 st.title("🏠 İstanbul Konut Fiyat Tahmini")
 
-st.markdown(
-    """
-    ⚠️ **Bilgilendirme:** Model geçmiş dönem ilan verileri ile eğitilmiştir.  
-    Enflasyon ve piyasa koşullarındaki değişimler nedeniyle tahminler güncel değerlerden sapma gösterebilir.
-    """
-)
+
 
 
 # -----------------------------
@@ -174,8 +169,17 @@ if st.button("Tahmin Et"):
     predicted_price = 10 ** prediction_log  # log10 kullandıysan
 
     st.success(f"Tahmini Fiyat: {predicted_price:,.0f} TL")
+    
+    st.markdown(
+    """
+    ⚠️ **Bilgilendirme:** Model geçmiş dönem ilan verileri ile eğitilmiştir.  
+    Enflasyon ve piyasa koşullarındaki değişimler nedeniyle tahminler güncel değerlerden sapma gösterebilir.
+    """
+    )
+    
     st.write("R² Skoru:", 0.72)
     st.write("Ortalama Hata (MAE): 149,720 TL")
     st.write("Ortalama Yüzde Hata: %17")
+
 
 
