@@ -44,8 +44,6 @@ Projede uygulanan başlıca işlemler:
 
 - **R² Score:** ~0.72  
 - **MAE (log):** ~0.077  
-- **MAE (TL):** ~149.000 TL  
-- **Ortalama Yüzde Hata:** ~%17  
 
 Model, fiyat varyansının yaklaşık %72’sini açıklayabilmektedir.
 
